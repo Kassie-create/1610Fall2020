@@ -11,14 +11,6 @@
 [Mm]emoryCaptures/
 .idea/
 
-Library/
-Temp/
-Obj/
-Builds/
-Logs/
-MemoryCaptures/
-.idea/
-
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
