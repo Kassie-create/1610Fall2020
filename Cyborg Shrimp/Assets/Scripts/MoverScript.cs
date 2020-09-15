@@ -1,29 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 public class MoverScript : MonoBehaviour
-{   
-    public float speed = 3f;
-    public string talkingPoint = "Hello World.";
+{
+    public float moveSpeed;
+    private Vector3 moveDirection;
     
-    void Start()
+    public void Update()
     {
-        Debug.Log("Hello World!");
-    }
-    void Update()
-    {
-        var x = speed * Input.GetAxis("Horizontal") * Time.deltaTime;
-        var y = speed * Input.GetAxis("Vertical") * Time.deltaTime;
-        var z = 0;
-        transform.Translate(x,y,z);
-    }
-    public void Up()
-    {
-        transform.Translate(0, speed, 0);
-    }
-    
-    public void Down()
-    {
-        transform.Translate(0, -speed, 0);
+        if (Input.GetButton("Jump"))
+        {
+            moveDirection.x = moveSpeed * Time.deltaTime;
+        }
+        else
+        {
+            moveDirection.x = -moveSpeed * Time.deltaTime;
+        }
+        transform.Translate(moveDirection);
     }
 }

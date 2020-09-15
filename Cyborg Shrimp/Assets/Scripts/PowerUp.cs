@@ -1,11 +1,13 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class PowerUp : MonoBehaviour
 {
-    public int score;
+    public int value;
+
     private void OnTriggerEnter(Collider other)
     {
-        score++;
-        print(score);
+        value++;
+        print(value);
     }
 }
