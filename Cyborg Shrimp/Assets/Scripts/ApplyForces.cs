@@ -9,4 +9,5 @@ public class ApplyForces : MonoBehaviour
     {
         rBody.AddForce(0, force, 0);
     }
+    
 }
