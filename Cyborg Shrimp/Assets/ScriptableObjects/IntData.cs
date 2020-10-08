@@ -4,10 +4,9 @@
 public class IntData : ScriptableObject
 {
     public int value;
-
+    
     public void UpdateValue(int number)
     {
         value += number;
-        Debug.Log(value + " " + this.name);
     }
 }
