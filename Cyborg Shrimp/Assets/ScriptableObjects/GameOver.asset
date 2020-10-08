@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45fa99af1c4ea4860bce3db3506c6abf, type: 3}
-  m_Name: Speed
+  m_Script: {fileID: 11500000, guid: e2c3ed016317a4ee5a0f5349b440522d, type: 3}
+  m_Name: GameOver
   m_EditorClassIdentifier: 
-  value: 150
+  value: 1
