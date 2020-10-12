@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu]
 public class IntData : ScriptableObject
@@ -8,5 +9,10 @@ public class IntData : ScriptableObject
     public void UpdateValue(int number)
     {
         value += number;
+    }
+    
+    public void DisplayValue(Image img)
+    {
+        img.fillAmount = value;
     }
 }
