@@ -11,8 +11,18 @@ public class IntData : ScriptableObject
         value += number;
     }
     
-    public void DisplayValue(Image img)
+    public void ReplaceValue(int number)
+    {
+        value = number;
+    } 
+
+    public void DisplayImage(Image img)
     {
         img.fillAmount = value;
+    }
+
+    public void DisplayNumber(Text txt)
+    {
+        txt.text = value.ToString();
     }
 }
