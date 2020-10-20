@@ -8,6 +8,7 @@ public class CharacterMover : MonoBehaviour
     
     private Vector3 moveDirection;
     private float yDirection;
+    public bool gameOver = false;
 
     private void Start()
     {
