@@ -12,7 +12,6 @@ public class StringListData : ScriptableObject
     {
         indexer = 0;
     }
-
     public void UpdateText(Text txt)
     {
         txt.text = value[indexer];
