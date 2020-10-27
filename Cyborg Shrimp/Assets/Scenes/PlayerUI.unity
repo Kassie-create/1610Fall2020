@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 235582684}
   - component: {fileID: 235582683}
   - component: {fileID: 235582682}
-  m_Layer: 12
+  m_Layer: 24
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -640,7 +640,7 @@ GameObject:
   - component: {fileID: 1362450896}
   - component: {fileID: 1362450895}
   - component: {fileID: 1362450894}
-  m_Layer: 16
+  m_Layer: 12
   m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -782,7 +782,7 @@ GameObject:
   - component: {fileID: 1595001597}
   - component: {fileID: 1595001596}
   - component: {fileID: 1595001600}
-  m_Layer: 16
+  m_Layer: 12
   m_Name: HealthDamager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1097,7 +1097,7 @@ GameObject:
   - component: {fileID: 1851848192}
   - component: {fileID: 1851848191}
   - component: {fileID: 1851848190}
-  m_Layer: 16
+  m_Layer: 12
   m_Name: Dialogue (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
