@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bae414943d214c93abb494421536ec7, type: 3}
-  m_Name: GreenTriangle 5
+  m_Script: {fileID: 11500000, guid: 45fa99af1c4ea4860bce3db3506c6abf, type: 3}
+  m_Name: Cash
   m_EditorClassIdentifier: 
-  powerLevel: 15
-  cashValue: 30
-  art: {fileID: 21300000, guid: f6682c8aa0cb34c95a0c857fda4eff30, type: 3}
-  artColor: {r: 0.14320946, g: 1, b: 0, a: 1}
+  value: 0

@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bae414943d214c93abb494421536ec7, type: 3}
-  m_Name: RedCube 3
+  m_Name: RedCircle
   m_EditorClassIdentifier: 
-  powerLevel: 1
-  cashValue: 1
-  art: {fileID: 21300000, guid: cb917411be3a6453fb15c6a3948ad1ec, type: 3}
-  artColor: {r: 1, g: 0, b: 0, a: 1}
+  cashValue: 100
+  art: {fileID: 21300000, guid: 516e521a9f2a241f5a1734bfd3204d73, type: 3}
+  artColor: {r: 1, g: 0.23765773, b: 0, a: 1}
